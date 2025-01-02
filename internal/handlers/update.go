@@ -8,9 +8,7 @@ import (
 	"github.com/Jenya222/metrics-collector/internal/storage"
 )
 
-type UpdateHandler struct {
-	storage storage.MemStorage
-}
+type UpdateHandler struct{}
 
 func NewUpdateHandler() *UpdateHandler {
 	return &UpdateHandler{}

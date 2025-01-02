@@ -10,8 +10,8 @@ import (
 )
 
 const (
-	pollInterval   = 2 * time.Second  // Частота обновления метрик
-	reportInterval = 10 * time.Second // Частота отправки метрик
+	pollInterval   = 2 * time.Second
+	reportInterval = 10 * time.Second
 )
 
 func main() {
